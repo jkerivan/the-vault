@@ -1,0 +1,53 @@
+.main-wrap{
+    background-color: #26282e;
+    height: calc(100vh - 90px);
+    position: relative;
+    display: flex;
+}
+
+.content-wrap {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex: 0 0 95%;
+    overflow: hidden;
+}
+
+.content-header {
+    width: 100%;
+    height: 100%;
+    flex: 0 0 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(#262629, #26282e);
+}
+
+.content-table {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex: 0 80 80%;
+    overflow: hidden;
+}
+
+.table-cell {
+    background-color: #262629;
+    color: white;
+}
+
+.table-text {
+    color: white;
+    font-weight: bold;
+}

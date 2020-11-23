@@ -1,0 +1,22 @@
+.top-bar {
+    background-color: #080808;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex: 0 0 5%;
+}
+
+.top-bar-container {
+    background-color: #080808;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.login {
+    color: #f5f5f5;
+    font-size: 18px;
+    padding: 10px;
+}
