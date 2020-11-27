@@ -7,17 +7,20 @@
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.2",
     "@testing-library/user-event": "^12.2.2",
+    "axios": "^0.21.0",
     "eslint": "^7.13.0",
     "fontsource-roboto": "^3.0.3",
     "react": "^17.0.1",
-    "react-audio-player": "^0.14.0",
     "react-dom": "^17.0.1",
     "react-icons": "^3.11.0",
-    "react-pro-sidebar": "^0.4.4",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.0",
     "react-sound": "^1.2.0",
     "react-table": "^7.6.2",
+    "react-validation": "^3.0.7",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "validator": "^13.1.17",
     "web-vitals": "^0.2.4",
     "wolfy87-eventemitter": "^5.2.9",
     "yarn": "^1.22.10"
@@ -45,5 +48,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-redux": "^7.2.2",
+    "redux-devtools-extension": "^2.13.8"
   }
 }

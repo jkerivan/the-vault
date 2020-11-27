@@ -6,7 +6,7 @@ import './css/TopBar.css';
 
 import TopBar from './components/TopBar';
 import SideBar from './components/SideBar';
-import Content from './components/Content';
+import TrackTable from './components/content/TrackTable';
 import PlayBar from './components/Playbar';
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -34,7 +34,7 @@ function App() {
                     </Switch>
                 </Router>
 
-                <Content ee={ee}/>
+                <TrackTable ee={ee}/>
             </div>
         </div>
 
