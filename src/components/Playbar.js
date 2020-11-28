@@ -21,11 +21,11 @@ export default class PlayBar extends React.Component {
     }
 
     componentDidMount() {
-        this.props.ee.on('foo', (payload) => { this.newSongSelected(payload.row) });
+
     }
 
     componentWillUnmount() {
-        this.props.ee.removeListener('foo', this.newSongSelected);
+
     }
 
     render() {

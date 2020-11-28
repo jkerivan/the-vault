@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import UserService from "../../services/user.service";
+import {useSelector} from "react-redux";
+import {Redirect} from "react-router-dom";
 
 const Home = () => {
     const [content, setContent] = useState("");
@@ -19,9 +21,15 @@ const Home = () => {
         );
     }, []);
 
+    const { user: currentUser } = useSelector((state) => state.auth);
+
+    if (!currentUser) {
+        return <Redirect to="/login" />;
+    }
+
     return (
-        <div className="container">
-            <header className="jumbotron">
+        <div className="home dave">
+            <header className="">
                 <h3>{content}</h3>
             </header>
         </div>
